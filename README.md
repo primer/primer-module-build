@@ -13,9 +13,15 @@ This repository is distributed with [npm][npm]. After [installing npm][install-n
 $ npm install --save primer-module-build
 ```
 
-## Usage
+## Documentation & Usage
 
-## Documentation
+The script is CLI based. What it does is compiles the scss then runs it throught postcss. Placing the output in the `build/build.css` file. Then it compiles some stats on the module and places it in the `build/index.js` file.
+
+```
+$ primer-module-build index.scss
+```
+
+The best way to set this up for automation is to place `primer-module-build path/to/file.scss` in the `"prepublish"` npm script.
 
 ## License
 
