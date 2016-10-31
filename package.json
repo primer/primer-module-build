@@ -1,12 +1,22 @@
 {
+  "version": "0.0.0",
   "name": "primer-module-build",
-  "version": "1.0.0",
   "description": "Scripts to build primer SCSS modules into CSS and stats",
+  "homepage": "http://primercss.io/",
+  "author": "GitHub, Inc.",
+  "license": "MIT",
   "files": [
     "index.js",
     "cli.js",
     "lib"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/primer/primer-module-build.git"
+  },
+  "bugs": {
+    "url": "https://github.com/primer/primer-module-build/issues"
+  },
   "bin": "cli.js",
   "engines": {
     "node": ">=4"
@@ -15,10 +25,12 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "primer"
+    "primer",
+    "build",
+    "css",
+    "postcss",
+    "node-sass"
   ],
-  "author": "GitHub Inc.",
-  "license": "MIT",
   "dependencies": {
     "autoprefixer": "^6.5.1",
     "cssstats": "^3.0.0-beta.2",
@@ -29,7 +41,6 @@
   "devDependencies": {
     "eslint": "^3.8.1",
     "eslint-plugin-github": "^0.6.1",
-    "primer-support": "^0.6.0",
     "primer-utilities": "^1.0.0"
   }
 }
