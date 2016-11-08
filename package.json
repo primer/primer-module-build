@@ -22,7 +22,9 @@
     "node": ">=4"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "ava": "ava --verbose \"tests/**/*.js\"",
+    "lint": "eslint lib/**/*.js *.js tests/**/*.js",
+    "test": "npm run lint && npm run ava"
   },
   "keywords": [
     "primer",
@@ -39,6 +41,7 @@
     "postcss": "^5.2.5"
   },
   "devDependencies": {
+    "ava": "^0.16.0",
     "eslint": "^3.8.1",
     "eslint-plugin-github": "^0.6.1",
     "primer-utilities": "^1.0.0"
