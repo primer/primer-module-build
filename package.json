@@ -44,6 +44,6 @@
     "ava": "^0.16.0",
     "eslint": "^3.8.1",
     "eslint-plugin-github": "^0.8.0",
-    "primer-utilities": "^3.0.0"
+    "primer-utilities": "^3.3.0"
   }
 }
