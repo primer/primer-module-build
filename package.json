@@ -42,7 +42,7 @@
   },
   "devDependencies": {
     "ava": "^0.16.0",
-    "eslint": "^3.8.1",
+    "eslint": "^3.18.0",
     "eslint-plugin-github": "^0.8.0",
     "primer-utilities": "^4.0.1"
   }
