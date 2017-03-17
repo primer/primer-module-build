@@ -37,7 +37,7 @@
     "autoprefixer": "^6.5.1",
     "cssstats": "^3.0.0-beta.2",
     "meow": "^3.7.0",
-    "node-sass": "^4.0.0",
+    "node-sass": "^4.3.0",
     "postcss": "^5.2.5"
   },
   "devDependencies": {
