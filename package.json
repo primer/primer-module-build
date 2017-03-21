@@ -41,7 +41,7 @@
     "postcss": "^5.2.5"
   },
   "devDependencies": {
-    "ava": "^0.16.0",
+    "ava": "^0.18.2",
     "eslint": "^3.18.0",
     "eslint-plugin-github": "^0.8.0",
     "primer-utilities": "^4.0.1"
