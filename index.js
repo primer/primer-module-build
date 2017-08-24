@@ -14,5 +14,5 @@ module.exports = str => {
     throw new InputException("We are only able to handle .scss files")
   }
 
-  build(str.input[0], str.flags)
+  return build(str.input[0], str.flags)
 }
