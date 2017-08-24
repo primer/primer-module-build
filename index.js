@@ -5,14 +5,14 @@ function InputException(message) {
   this.name = "InputException"
 }
 
-module.exports = str => {
-  if (!str.input || str.input.length === 0) {
+module.exports = argv => {
+  if (!argv.input || argv.input.length === 0) {
     throw new InputException("You must supply a file to build")
   }
 
-  if (!str.input[0].match(/\.scss$/)) {
+  if (!argv.input[0].match(/\.scss$/)) {
     throw new InputException("We are only able to handle .scss files")
   }
 
-  return build(str.input[0], str.flags)
+  return build(argv.input[0], argv.flags)
 }
