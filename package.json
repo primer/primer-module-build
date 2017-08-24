@@ -26,6 +26,14 @@
     "lint": "eslint lib/**/*.js *.js tests/**/*.js",
     "test": "npm run lint && npm run ava"
   },
+  "browserslist": [
+    "> 5%",
+    "last 2 firefox versions",
+    "last 2 chrome versions",
+    "last 2 safari versions",
+    "last 2 edge versions",
+    "ie 11"
+  ],
   "keywords": [
     "primer",
     "build",
