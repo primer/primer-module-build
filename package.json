@@ -40,7 +40,8 @@
     "meow": "^3.7.0",
     "node-sass": "^4.3.0",
     "pify": "^3.0.0",
-    "postcss": "^5.2.5"
+    "postcss": "^5.2.5",
+    "postcss-load-config": "^1.2.0"
   },
   "devDependencies": {
     "ava": "^0.18.2",
