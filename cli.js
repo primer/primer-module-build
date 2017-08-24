@@ -17,3 +17,10 @@ const cli = meow(`
 `)
 
 build(cli)
+  .catch(err => {
+    console.error(`Unable to build: ${error}`)
+    process.exit(1)
+  })
+  .then(output => {
+    process.exit(0)
+  })
