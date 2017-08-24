@@ -26,6 +26,14 @@
     "lint": "eslint lib/**/*.js *.js tests/**/*.js",
     "test": "npm run lint && npm run ava"
   },
+  "browserslist": [
+    "> 5%",
+    "last 2 firefox versions",
+    "last 2 chrome versions",
+    "last 2 safari versions",
+    "last 2 edge versions",
+    "ie 11"
+  ],
   "keywords": [
     "primer",
     "build",
@@ -36,9 +44,12 @@
   "dependencies": {
     "autoprefixer": "^6.7.7",
     "cssstats": "^3.0.0-beta.2",
+    "fs-extra": "^4.0.1",
     "meow": "^3.7.0",
     "node-sass": "^4.3.0",
-    "postcss": "^5.2.5"
+    "pify": "^3.0.0",
+    "postcss": "^5.2.5",
+    "postcss-load-config": "^1.2.0"
   },
   "devDependencies": {
     "ava": "^0.18.2",
