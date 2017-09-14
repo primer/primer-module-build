@@ -4,7 +4,7 @@ const build = require("../lib/build.js")
 const path = require("path")
 
 test("builds test css", t => {
-  return build("./tests/test.scss", {})
+  return build("./tests/test.scss", { verbose: true })
     .then(output => {
       /*eslint-disable*/
       console.log(fs.readdirSync(path.join(process.cwd(),"build")));
